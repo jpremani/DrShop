@@ -1,0 +1,20 @@
+.MainSection_Page {
+  margin: 0px 2rem;
+}
+.Main_Section {
+  display: flex;
+  gap: 20px;
+}
+.right-section {
+  width: 50%;
+  height: 100vh;
+}
+.left-section {
+  width: 50vw;
+}
+@media (max-width: 480px) {
+  .Main_Section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,48 @@
+.Work_container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.Work_header h5 {
+  background-color: rgb(212, 243, 155);
+  padding: 10px 20px;
+}
+.Work_main p {
+  color: green;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.Work_main .Work_Line {
+  width: 80%;
+  height: 1px;
+  background-color: green;
+  margin-left: 15px;
+}
+.college_info {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0px 20px;
+}
+.college_info img {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+}
+.college_info .college_value div {
+  color: rgb(48, 44, 44);
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.college_info .coll_date p {
+  color: gray;
+}
+@media (max-width: 480px) {
+  .Work_container {
+    width: 160%;
+  }
+  .college_value {
+    padding-left: 20px;
+  }
+}

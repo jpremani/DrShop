@@ -1,0 +1,164 @@
+.Appoitment {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 20px 20px;
+}
+.Appoitment_fee {
+  display: flex;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  border-radius: 7px;
+  justify-content: space-between;
+  padding: 5px 15px;
+  align-items: center;
+}
+.Appoitment_fee span {
+  color: green;
+  font-weight: bold;
+}
+.Appoitment_mode {
+  margin-top: 1rem;
+}
+.Appoitment_type {
+  display: flex;
+  margin-top: 2rem;
+}
+.Appoitment_mode_head {
+  display: flex;
+}
+.Appoitment_mode_head div {
+  width: 50%;
+  height: 1px;
+  background-color: gray;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.Appoitment_type div {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-right: 60px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.Appoitment_type div:hover {
+  background-color: rgb(10, 189, 10);
+  color: white;
+}
+
+.Date_slot {
+  margin-top: 2rem;
+}
+.Date_slot_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.Date_slot_heading div {
+  width: 60%;
+  height: 1px;
+  background-color: gray;
+  margin: 15px 10px;
+}
+.Morning_Time_slot {
+  margin-top: 2rem;
+}
+.Date_slot_heading i {
+  border: 1px solid gray;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+.Morning_Time_slot .Time_Slot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.Morning_Time_slot .Time_Slot span {
+  border: 2px solid gray;
+  padding: 5px 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.Morning_Time_slot .Time_Slot :hover {
+  background-color: rgb(10, 189, 10);
+  color: white;
+}
+.Evening_Time_slot {
+  margin-top: 2rem;
+}
+.Evening_Time_slot .Evening_Slot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.Evening_Time_slot .Evening_Slot :hover {
+  background-color: rgb(10, 189, 10);
+  color: white;
+}
+.Evening_Time_slot .Evening_Slot span {
+  border: 2px solid gray;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.button_container {
+  text-align: center;
+}
+.button_container button {
+  width: 80%;
+  background-color: green;
+  border-style: none;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 6px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.carousel-item active {
+  color: brown;
+}
+.Dte_slot_timing {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dte_slot_timing div {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 120px;
+  display: block;
+  background-color: rgb(253, 241, 169);
+}
+.Dte_slot_timing div span {
+  display: block;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .Appoitment {
+    width: 200%;
+  }
+  .Appoitment_type {
+    margin-left: -10px;
+  }
+  .Appoitment_type .Appoint_Value {
+    margin-right: -10px;
+    margin-left: -1px;
+  }
+  .Date_slot_heading i {
+    border: none;
+  }
+  .Date_slot_timing {
+    display: flex;
+  }
+  .Dte_slot_timing div {
+    margin-top: 20px;
+  }
+  .Dte_slot_timing div span {
+    font-size: 12px;
+  }
+}

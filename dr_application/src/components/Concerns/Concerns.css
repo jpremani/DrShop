@@ -1,0 +1,27 @@
+.Concerns_container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.Concerns_header h5 {
+  background-color: rgb(212, 243, 155);
+  padding: 10px 20px;
+}
+.Concerns_Treat {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Concerns_Treat p {
+  border: 1px solid gray;
+  background-color: rgb(163, 252, 171);
+  padding: 5px 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .Concerns_container {
+    width: 160%;
+  }
+}

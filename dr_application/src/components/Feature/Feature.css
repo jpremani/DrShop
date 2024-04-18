@@ -1,0 +1,46 @@
+.Feature_Container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 30px;
+}
+.feature_header h5 {
+  background-color: rgb(212, 243, 155);
+  padding: 10px 20px;
+}
+.Feature {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Feature_card {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgb(253, 244, 244);
+}
+.Feature_card_header {
+  display: flex;
+  justify-content: space-between;
+}
+.Feature_card .Feature_card_header img {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+.Feature_card_footer .Feature_card_review {
+  text-align: justify;
+}
+.Feature_card_footer img {
+  width: 80px;
+  height: 60px;
+}
+@media (max-width: 480px) {
+  .Feature_Container {
+    width: 160%;
+  }
+  .Feature_card {
+    margin-right: 30px;
+  }
+}

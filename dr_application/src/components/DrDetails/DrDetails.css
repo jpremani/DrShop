@@ -1,0 +1,115 @@
+.DrDetails {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.DrDetails_detail {
+  border: 2px solid gray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  background-color: rgb(252, 241, 182);
+  margin-left: 60px;
+}
+
+.Dr_image {
+  position: relative;
+  text-align: center;
+}
+.Dr_image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.Dr_image div {
+  position: absolute;
+  left: 90px;
+  bottom: -10px;
+  border: 1px solid;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  padding: 0px 10px;
+  font-size: 10px;
+}
+.Dr_image div span i {
+  color: gold;
+  margin-left: 4px;
+}
+.dr_name {
+  margin-top: 10px;
+  text-align: center;
+}
+.dr_name p i {
+  margin-right: 5px;
+  color: green;
+}
+.dr_consult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dr_consult .dr_consult_section {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: green;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+.DrDetail_button button {
+  display: block;
+  margin-top: 10px;
+  width: 90%;
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
+.DrDetail_button button:hover {
+  background-color: rgb(247, 228, 126);
+  color: black;
+}
+.model {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255, 245, 189);
+}
+.model_container {
+  border: 2px solid gray;
+  margin-left: 290px;
+  margin-top: 40px;
+  width: 50vw;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.model_container .modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.model_container .modal_header button {
+  border: none;
+  font-size: 20px;
+  color: green;
+  background: transparent;
+}
+.modal_value {
+  text-align: center;
+}
+.modal_value img {
+  width: 90px;
+  height: 120px;
+}
+.modal_value p {
+  font-weight: bold;
+}
